@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Biography</title>
+
+    <!-- Google Font (Hazel Deco style alternative) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            /* Light purple/blue background */
+            background: linear-gradient(135deg, #c8b6ff, #bde0fe);
+        }
+
+        h1 {
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 4rem;
+
+            /* Glitter-like gradient text */
+            background: linear-gradient(45deg, #3a0ca3, #4361ee, #7209b7);
+            background-size: 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 0% }
+            100% { background-position: 100% }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Biography</h1>
+</body>
+</html>
